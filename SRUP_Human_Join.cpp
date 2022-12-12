@@ -1,0 +1,8 @@
+
+
+#include "SRUP_Human_Join.h"
+
+SRUP_MSG_HUMAN_JOIN_REQ::SRUP_MSG_HUMAN_JOIN_REQ()
+{
+    m_msgtype[0] = SRUP::SRUP_MESSAGE_TYPE_HM_JOIN_REQ;
+}
